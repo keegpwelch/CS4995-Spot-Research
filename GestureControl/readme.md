@@ -25,15 +25,13 @@ In order to run the program, you must first connect to Spot's wifi and run the e
 in `spot-sdk/python/examples/estop` with your virtualenv activated:
 ```
 $ python -m pip install -r requirements.txt
-```
-```
+
 $ python estop_nogui.py --username USER --password PASSWORD ROBOT_IP
 ```
 Then in a separate terminal, with your estop running, call the runspot.py program in the `GestureControl` directory:
 ```
 $ python -m pip install -r requirements.txt
-```
-```
+
 $ python runspot.py --username USER --password PASSWORD ROBOT_IP
 ```
 It should then start the program and open your laptop's webcam to relay hand gesture commands to Spot.
